@@ -1,0 +1,23 @@
+.welcomeSection {
+  display: grid;
+  padding: 10rem 1.25rem;
+  grid-template-columns: auto 1fr;
+  grid-gap: 2rem;
+}
+
+.welcomeImage {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.welcomeText {
+  align-self: center;
+}
+
+.welcomeText h1 {
+  font-size: 1.25rem;
+  line-height: 34px;
+  font-weight: 400;
+}
