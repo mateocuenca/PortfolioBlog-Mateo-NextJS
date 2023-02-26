@@ -1,0 +1,44 @@
+.navigationContainer {
+  border-bottom: 1px solid var(--lineBreak);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 1.25rem 1.25rem;
+}
+
+.matecuencaLogo {
+  fill: var(--foreground);
+}
+
+.navigation {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation ul li a {
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px 0 18px 0;
+  height: 100%;
+  border-bottom: 2px solid transparent;
+  color: var(--foregroundDarker);
+  transition: all ease-in-out 400ms;
+}
+
+.navigation ul li a:hover {
+  border-bottom: 2px solid var(--foreground);
+  color: var(--foreground);
+}
+
+.activeLink {
+  color: var(--foreground) !important;
+}
