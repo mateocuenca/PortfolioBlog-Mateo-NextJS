@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Global.module.css";
 import WelcomeSection from "@/components/WelcomeSection";
+import LatestPosts from "@/components/LatestPosts/LatestPosts";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.container}>
         <WelcomeSection />
+        <LatestPosts />
       </main>
     </>
   );

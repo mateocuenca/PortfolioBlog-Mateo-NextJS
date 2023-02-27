@@ -4,13 +4,10 @@
   margin: 0 auto;
   padding-left: 1.25 rem;
   padding-right: 1.25 rem;
-  position: relative;
 }
 
 .errorContainer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  padding: 10rem 1.25rem;
 }
 
 .hideMobile {

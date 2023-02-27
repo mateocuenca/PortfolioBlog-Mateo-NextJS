@@ -15,7 +15,7 @@ const WelcomeSection = () => {
       ></Image>
       <div className={styles.welcomeText}>
         <h1>
-          Hi I'm Mateo! 👋 <br /> A react front-end developer and a software
+          Hi I'm Mateo! 👋 <br /> A front-end developer 🖥️ and software
           engineering student at{" "}
           <a
             href={"https://21.edu.ar/"}
@@ -25,7 +25,7 @@ const WelcomeSection = () => {
             Universidad Siglo 21
           </a>
           <br />
-          Currently studying my last year of degree
+          Currently studying my last year of degree 🎓
         </h1>
       </div>
     </section>
