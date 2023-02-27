@@ -15,7 +15,7 @@ const WelcomeSection = () => {
       ></Image>
       <div className={styles.welcomeText}>
         <h1>
-          Hi I'm Mateo! 👋 <br /> A front-end developer 🖥️ and software
+          Hi I&apos;m Mateo! 👋 <br /> A front-end developer 🖥️ and software
           engineering student at{" "}
           <a
             href={"https://21.edu.ar/"}
