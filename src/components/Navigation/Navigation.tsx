@@ -3,7 +3,6 @@ import Logo from "../../../public/logo_matecuenca.svg";
 import ThemeToggle from "./ThemeToggle";
 import globalStyles from "@/styles/Global.module.css";
 import styles from "./Navigation.module.css";
-import clsx from "clsx";
 import { LinkedinLogo, GithubLogo } from "phosphor-react";
 import { useRouter } from "next/router";
 
