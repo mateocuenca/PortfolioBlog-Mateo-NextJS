@@ -6,6 +6,10 @@
   padding-right: 1.25 rem;
 }
 
+.pageTitle {
+  padding: 4rem 0 4rem 1.25rem;
+}
+
 .errorContainer {
   padding: 10rem 1.25rem;
 }
@@ -20,11 +24,24 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: var(--foregroundDarker);
-  padding: 1rem 0;
+  padding: 1rem;
   border-top: 1px solid var(--lineBreak);
+  font-size: 12px;
+}
+
+.footer p {
+  padding-bottom: 0.5rem;
+}
+
+.sourceCodeButton {
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--lineBreak);
+  border-radius: 4px;
 }
 
 @media (min-width: 1024px) {
@@ -34,5 +51,13 @@
 
   .hideDesktop {
     display: initial;
+  }
+
+  .footer {
+    flex-direction: row;
+  }
+
+  .footer p {
+    padding-bottom: 0;
   }
 }
